@@ -37,7 +37,7 @@ function App() {
           value={length}
           onChange={(e) => setLength(e.target.value)}
           min="1"
-          max="128"
+          max="256"
         />
       </label>
       <button onClick={handleGenerate}>Сгенерировать пароль</button>
